@@ -35,8 +35,8 @@ export default function Home() {
                 {techStack.map((tech) => (
                   <li key={tech.name} className="mx-4 will-change-transform">
                     <Image
-                      height={36}
-                      width={36}
+                      height={37}
+                      width={37}
                       src={tech.logo}
                       alt={tech.name}
                     />
