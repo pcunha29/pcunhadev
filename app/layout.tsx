@@ -4,22 +4,22 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pedro Cunha — Product-Focused Engineer",
+  title: "Pedro Cunha — Product Engineer",
   description:
-    "I build high-impact web platforms at the intersection of product, performance, and business growth.",
+    "Product Engineer building scalable, revenue-driven digital products. Bridging product strategy, design systems, and engineering execution.",
   openGraph: {
-    title: "Pedro Cunha — Product-Focused Engineer",
+    title: "Pedro Cunha — Product Engineer",
     description:
-      "I build high-impact web platforms at the intersection of product, performance, and business growth.",
+      "Product Engineer building scalable, revenue-driven digital products. Bridging product strategy, design systems, and engineering execution.",
     type: "website",
     locale: "en_US",
     url: "https://pcunha.dev",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pedro Cunha — Product-Focused Engineer",
+    title: "Pedro Cunha — Product Engineer",
     description:
-      "I build high-impact web platforms at the intersection of product, performance, and business growth.",
+      "Product Engineer building scalable, revenue-driven digital products. Bridging product strategy, design systems, and engineering execution.",
   },
   robots: {
     index: true,

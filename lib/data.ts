@@ -1,15 +1,37 @@
 export const siteConfig = {
   name: "Pedro Cunha",
-  title: "Product-Focused Engineer Building Scalable Digital Platforms",
+  title: "Product Engineer building scalable, revenue-driven digital products.",
   description:
-    "I build high-impact web platforms at the intersection of product, performance, and business growth.",
+    "I turn complex ideas into scalable, revenue-generating platforms, bridging product strategy and engineering execution.",
+};
+
+export const authorityHighlights = [
+  "8 years building production systems",
+  "Experience across startups, consulting & global-scale events",
+  "Design system & frontend architecture specialist",
+];
+
+export const about = {
+  intro: [
+    "I'm a product-focused engineer working at the intersection of strategy, design systems, and scalable frontend architecture.",
+    "Over the past years, I've worked across consulting, early-stage startups, Web3 projects, and global-scale platforms — helping teams turn ambiguous ideas into production-ready systems.",
+  ],
+  highlightsLabel: "What I naturally gravitate toward:",
+  highlights: [
+    "Structuring vague product ideas into clear roadmaps",
+    "Designing scalable frontend architectures",
+    "Building design systems that accelerate iteration",
+    "Bridging founders and engineering teams",
+    "Shipping fast without sacrificing long-term quality",
+  ],
+  closing:
+    "I care deeply about ownership, clarity in product direction, and building systems that generate measurable business impact.",
 };
 
 export const techSkills = [
   "React",
   "Next.js",
   "TypeScript",
-  "Vue.js",
   "Ruby on Rails",
   "Node.js",
   "Supabase",

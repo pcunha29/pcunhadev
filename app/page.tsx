@@ -1,11 +1,14 @@
 import { Hero } from "@/components/hero";
+import { About } from "@/components/about";
 import { ProjectCard } from "@/components/project-card";
 import { SectionCard } from "@/components/section-card";
 import { Experience } from "@/components/experience";
 import { Footer } from "@/components/footer";
 import {
   siteConfig,
+  authorityHighlights,
   techSkills,
+  about,
   whatIDo,
   projects,
   currentlyBuilding,
@@ -24,13 +27,24 @@ export default function Home() {
           title={siteConfig.title}
           description={siteConfig.description}
           skills={techSkills}
+          highlights={authorityHighlights}
         />
       </div>
+
+      <About
+        intro={about.intro}
+        highlightsLabel={about.highlightsLabel}
+        highlights={about.highlights}
+        closing={about.closing}
+      />
 
       <Experience items={experience} education={education} />
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 pt-16 md:grid-cols-2 lg:grid-cols-4">
+          <h2 className="col-span-full pt-8 font-mono text-xs uppercase tracking-wide text-white/30">
+            Projects & Freelance
+          </h2>
           <SectionCard title="What I Do" className="lg:col-span-2" index={0}>
             <ul className="flex flex-col gap-3">
               {whatIDo.map((item) => (
