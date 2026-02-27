@@ -53,7 +53,7 @@ export const projects = [
     title: "Rent4Ring",
     tag: "Platform",
     description:
-      "End-to-end development of a Nürburgring-focused rental platform. Built full website, database integration, and upcoming internal tooling. Direct revenue impact on vehicle bookings.",
+      "Built the full platform for Rent4Ring, a premium car rental service at the Nürburgring Nordschleife operating since 2009. Developed the website end-to-end. Direct revenue impact on vehicle reservations.",
   },
   {
     title: "RACINO",
