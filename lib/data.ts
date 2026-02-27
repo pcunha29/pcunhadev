@@ -14,7 +14,7 @@ export const authorityHighlights = [
 export const about = {
   intro: [
     "I'm a product-focused engineer working at the intersection of strategy, design systems, and scalable frontend architecture.",
-    "Over the past years, I've worked across consulting, early-stage startups, Web3 projects, and global-scale platforms — helping teams turn ambiguous ideas into production-ready systems.",
+    "Over the past years, I've worked across consulting, early-stage startups, Web3 projects, and global-scale platforms, helping teams turn ambiguous ideas into production-ready systems.",
   ],
   highlightsLabel: "What I naturally gravitate toward:",
   highlights: [
@@ -72,7 +72,7 @@ export const projects = [
 export const currentlyBuilding = {
   title: "DriveCell",
   tag: "In Progress",
-  description: "Building something new — details coming soon.",
+  description: "Building something new, details coming soon.",
 };
 
 export const howIThink = [
@@ -93,18 +93,18 @@ export const experience = [
   {
     company: "Web Summit",
     role: "Senior Software Engineer",
-    period: "Nov 2022 — Present",
+    period: "Nov 2022 - Present",
     location: "Porto, Portugal",
     description:
-      "Building and maintaining front-end components across the Web Summit ecosystem of websites — Web Summit, Collision, RISE, and more. Responsible for ensuring performant, accessible, and visually consistent user interfaces across all properties. Serving as Scrum Master for the engineering team, facilitating sprint planning, retrospectives, and cross-team coordination to keep delivery on track.",
-    tech: ["Next.js", "Storybook"],
+      "Currently helping build and maintain a large-scale conference management platform using Ruby on Rails, from attendee onboarding to event logistics and meeting scheduling. Previously developed front-end components across multiple high-traffic websites while serving as Scrum Master. Later joined a team building internal mobile applications with React Native to improve operational efficiency and internal tooling.",
+    tech: ["Ruby on Rails", "React Native", "Next.js"],
     industry: "Events & Tech Conferences",
     current: true,
   },
   {
     company: "Edge",
     role: "Frontend Engineer",
-    period: "Aug 2022 — Oct 2022",
+    period: "Aug 2022 - Oct 2022",
     location: "Porto, Portugal",
     description:
       "Developed the frontend for a Web3 Creator Platform enabling real-time marketing campaigns with verified Web2 and Web3 influencers. Built marketing automation features and influencer verification flows. First full-time role in a Web3 company, working fully remote.",
@@ -115,7 +115,7 @@ export const experience = [
   {
     company: "Smart Consulting",
     role: "Frontend Developer",
-    period: "Aug 2021 — Aug 2022",
+    period: "Aug 2021 - Aug 2022",
     location: "Porto, Portugal",
     description:
       "Built an e-learning platform for maintenance workers of industrial packaging machines and a content management dashboard where creators could manage all courses (client: Fette Compacting). Stepped outside my comfort zone by picking up Vue.js on the job. Mentored junior developers through sprint cycles and code reviews. Full remote position.",
@@ -126,7 +126,7 @@ export const experience = [
   {
     company: "Mudey",
     role: "Frontend Developer",
-    period: "Feb 2020 — Aug 2021",
+    period: "Feb 2020 - Aug 2021",
     location: "Vila Nova de Gaia, Portugal",
     description:
       "Developed insurance simulation and purchase platforms, an internal dashboard for customer management, and a wallet-style client area where users could track and manage all their policies. Sole frontend developer for most of my tenure, which forced rapid technical and interpersonal growth in an early-stage startup environment. Transitioned to fully remote when the pandemic hit.",
@@ -137,7 +137,7 @@ export const experience = [
   {
     company: "Bright Technologies",
     role: "Junior Web Developer",
-    period: "Feb 2019 — Feb 2020",
+    period: "Feb 2019 - Feb 2020",
     location: "Porto, Portugal",
     description:
       "Developed turnkey websites for startups within the group's portfolio. First professional experience building production web applications from scratch, working closely with designers and backend teams to ship on tight timelines.",
@@ -148,7 +148,7 @@ export const experience = [
   {
     company: "WireMaze",
     role: "UI/UX Developer",
-    period: "Feb 2018 — Jan 2019",
+    period: "Feb 2018 - Jan 2019",
     location: "Leça do Balio, Portugal",
     description:
       "Built city council websites using an internal website builder platform. Conducted training sessions for client technical managers on CMS tooling for content insertion and ongoing maintenance. Hybrid UI/UX role bridging design decisions with frontend implementation.",
@@ -161,6 +161,6 @@ export const experience = [
 export const education = {
   institution: "Universidade de Aveiro",
   degree: "Bachelor's Degree, New Communication Technologies",
-  period: "2014 — 2017",
+  period: "2014 - 2017",
   location: "Aveiro, Portugal",
 };

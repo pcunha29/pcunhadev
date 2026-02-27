@@ -42,7 +42,7 @@ export default function Home() {
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 pt-16 md:grid-cols-2 lg:grid-cols-4">
-          <h2 className="col-span-full pt-8 font-mono text-xs uppercase tracking-wide text-white/30">
+          <h2 className="col-span-full pt-8 font-mono text-xs uppercase tracking-wide text-neutral-300 dark:text-white/30">
             Projects & Freelance
           </h2>
           <SectionCard title="What I Do" className="lg:col-span-2" index={0}>
@@ -50,9 +50,9 @@ export default function Home() {
               {whatIDo.map((item) => (
                 <li
                   key={item}
-                  className="flex items-start gap-2 text-sm leading-relaxed text-white/50"
+                  className="flex items-start gap-2 text-sm leading-relaxed text-neutral-500 dark:text-white/50"
                 >
-                  <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-white/20" />
+                  <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-neutral-300 dark:bg-white/20" />
                   {item}
                 </li>
               ))}
@@ -90,14 +90,14 @@ export default function Home() {
           >
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-3">
-                <h3 className="text-base font-semibold text-white/90">
+                <h3 className="text-base font-semibold text-neutral-800 dark:text-white/90">
                   {currentlyBuilding.title}
                 </h3>
                 <span className="rounded-full bg-emerald-500/10 px-2.5 py-0.5 font-mono text-[11px] text-emerald-400/80">
                   {currentlyBuilding.tag}
                 </span>
               </div>
-              <p className="text-sm leading-relaxed text-white/40">
+              <p className="text-sm leading-relaxed text-neutral-400 dark:text-white/40">
                 {currentlyBuilding.description}
               </p>
             </div>
@@ -108,9 +108,9 @@ export default function Home() {
               {howIThink.map((item) => (
                 <li
                   key={item}
-                  className="flex items-start gap-2 text-sm leading-relaxed text-white/50"
+                  className="flex items-start gap-2 text-sm leading-relaxed text-neutral-500 dark:text-white/50"
                 >
-                  <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-white/20" />
+                  <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-neutral-300 dark:bg-white/20" />
                   {item}
                 </li>
               ))}
@@ -122,7 +122,7 @@ export default function Home() {
               {openTo.map((item) => (
                 <li
                   key={item}
-                  className="flex items-start gap-2 text-sm leading-relaxed text-white/50"
+                  className="flex items-start gap-2 text-sm leading-relaxed text-neutral-500 dark:text-white/50"
                 >
                   <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-emerald-400/40" />
                   {item}

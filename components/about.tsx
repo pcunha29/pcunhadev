@@ -21,7 +21,7 @@ export function About({
       transition={{ duration: 0.6, ease: [0.21, 0.47, 0.32, 0.98] }}
       className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8"
     >
-      <h2 className="mb-8 font-mono text-xs uppercase tracking-widest text-white/25">
+      <h2 className="mb-8 font-mono text-xs uppercase tracking-widest text-neutral-300 dark:text-white/25">
         About
       </h2>
 
@@ -29,19 +29,21 @@ export function About({
         {intro.map((paragraph) => (
           <p
             key={paragraph}
-            className="text-sm leading-relaxed text-white/45"
+            className="text-sm leading-relaxed text-neutral-500 dark:text-white/45"
           >
             {paragraph}
           </p>
         ))}
 
         <div className="space-y-2">
-          <p className="text-sm font-medium text-white/35">{highlightsLabel}</p>
-          <ul className="space-y-2 border-l border-white/8 pl-4">
+          <p className="text-sm font-medium text-neutral-400 dark:text-white/35">
+            {highlightsLabel}
+          </p>
+          <ul className="space-y-2 border-l border-neutral-200 pl-4 dark:border-white/8">
             {highlights.map((item) => (
               <li
                 key={item}
-                className="text-sm leading-relaxed text-white/40"
+                className="text-sm leading-relaxed text-neutral-400 dark:text-white/40"
               >
                 {item}
               </li>
@@ -49,7 +51,9 @@ export function About({
           </ul>
         </div>
 
-        <p className="text-sm leading-relaxed text-white/45">{closing}</p>
+        <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/45">
+          {closing}
+        </p>
       </div>
     </motion.section>
   );
