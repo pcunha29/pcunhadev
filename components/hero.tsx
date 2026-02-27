@@ -73,7 +73,9 @@ export function Hero({
               {item}
             </span>
             {i < highlights.length - 1 && (
-              <span className="hidden px-3 text-lg text-white/15 sm:inline">|</span>
+              <span className="hidden px-3 text-lg text-white/15 sm:inline">
+                |
+              </span>
             )}
           </span>
         ))}

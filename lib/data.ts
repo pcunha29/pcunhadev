@@ -83,7 +83,7 @@ export const howIThink = [
 ];
 
 export const openTo = [
-  "Product Engineer roles",
+  "Product Engineer / Frontend Engineer roles",
   "AI-adjacent platforms",
   "High-ownership startup environments",
   "Selective freelance collaborations",
