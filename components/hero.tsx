@@ -23,16 +23,6 @@ export function Hero({
       transition={{ duration: 0.8, ease: [0.21, 0.47, 0.32, 0.98] }}
       className="flex flex-col gap-5 py-12 md:py-20 lg:py-28"
     >
-      <div className="flex items-center gap-3">
-        <span className="relative flex h-2 w-2">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
-          <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
-        </span>
-        <span className="font-mono text-xs uppercase tracking-wide text-white/40">
-          Available for work
-        </span>
-      </div>
-
       <div className="flex items-center gap-4">
         <Image
           src="/logo.jpg"
