@@ -7,7 +7,7 @@ export const siteConfig = {
 
 export const authorityHighlights = [
   "8 years building production systems",
-  "Experience across startups, consulting & global-scale events",
+  "Experience across startups, consulting & event management",
   "Design system & frontend architecture specialist",
 ];
 

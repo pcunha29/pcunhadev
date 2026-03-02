@@ -1,8 +1,26 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useEffect, useState } from "react";
+
+const words = [
+  "together.",
+  "that scale.",
+  "that matter.",
+  "ambitious.",
+  "with impact.",
+];
 
 export function Footer() {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % words.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <motion.footer
       initial={{ opacity: 0 }}
@@ -12,7 +30,21 @@ export function Footer() {
       className="flex flex-col items-center gap-6 border-t border-neutral-200 py-16 text-center dark:border-white/6"
     >
       <h2 className="text-xl font-semibold text-neutral-700 dark:text-white/70 md:text-2xl">
-        Let&apos;s build something together
+        Let&apos;s build something{" "}
+        <span className="relative inline-block h-[1.3em] w-[120px] overflow-hidden align-bottom md:w-[140px]">
+          <AnimatePresence mode="wait">
+            <motion.span
+              key={words[index]}
+              initial={{ y: "100%", opacity: 0 }}
+              animate={{ y: "0%", opacity: 1 }}
+              exit={{ y: "-100%", opacity: 0 }}
+              transition={{ duration: 0.5, ease: [0.21, 0.47, 0.32, 0.98] }}
+              className="absolute left-0 text-emerald-500 dark:text-emerald-400"
+            >
+              {words[index]}
+            </motion.span>
+          </AnimatePresence>
+        </span>
       </h2>
       <a
         href="mailto:pcunhadev@gmail.com"
