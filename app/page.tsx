@@ -63,6 +63,8 @@ export default function Home() {
             title={projects[0].title}
             tag={projects[0].tag}
             description={projects[0].description}
+            image={projects[0].image}
+            href={projects[0].href}
             className="lg:col-span-2"
             index={1}
           />
@@ -71,6 +73,8 @@ export default function Home() {
             title={projects[1].title}
             tag={projects[1].tag}
             description={projects[1].description}
+            image={projects[1].image}
+            href={projects[1].href}
             className="lg:col-span-2"
             index={2}
           />

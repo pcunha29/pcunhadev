@@ -54,12 +54,16 @@ export const projects = [
     tag: "Platform",
     description:
       "Built the full platform for Rent4Ring, a premium car rental service at the Nürburgring Nordschleife operating since 2009. Developed the website end-to-end. Direct revenue impact on vehicle reservations.",
+    image: "/rent4ring.png",
+    href: "https://rent4ring.de",
   },
   {
     title: "RACINO",
     tag: "Design System",
     description:
       "Designed and implemented the launch platform and full design system using atomic design principles and Storybook. Enabled rapid product iteration with founders.",
+    image: "/racino.png",
+    href: "https://racino.io",
   },
   {
     title: "DeFire",
@@ -92,7 +96,7 @@ export const openTo = [
 export const experience = [
   {
     company: "Web Summit",
-    role: "Senior Software Engineer",
+    role: "Software Engineer",
     period: "Nov 2022 - Present",
     location: "Porto, Portugal",
     description:
