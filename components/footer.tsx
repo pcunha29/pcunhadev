@@ -27,7 +27,7 @@ export function Footer() {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="flex flex-col items-center gap-6 border-t border-neutral-200 py-16 text-center dark:border-white/6"
+      className="flex flex-col items-center gap-6 border-neutral-200 py-16 text-center dark:border-white/6"
     >
       <h2 className="text-xl font-semibold text-neutral-700 dark:text-white/70 md:text-2xl">
         Let&apos;s build something{" "}
