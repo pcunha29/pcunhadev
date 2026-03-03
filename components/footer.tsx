@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const words = [
   "together.",
-  "that scale.",
+  "that scales.",
   "that matter.",
   "ambitious.",
   "with impact.",

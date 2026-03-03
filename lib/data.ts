@@ -41,11 +41,11 @@ export const techSkills = [
 ];
 
 export const whatIDo = [
-  "Architect scalable frontend systems (React, Next.js)",
-  "Design and implement design systems (Storybook, Atomic Design)",
+  "Architect scalable frontend systems (React, Next.js, Vue.js)",
+  "Lead cross-functional initiatives when needed",
   "Build 0 to 1 platforms from idea to production",
   "Bridge product vision with technical execution",
-  "Lead cross-functional initiatives when needed",
+  "Implement design systems",
 ];
 
 export const projects = [
@@ -145,18 +145,18 @@ export const experience = [
     location: "Porto, Portugal",
     description:
       "Developed turnkey websites for startups within the group's portfolio. First professional experience building production web applications from scratch, working closely with designers and backend teams to ship on tight timelines.",
-    tech: ["React"],
-    industry: "Sofware House",
+    tech: ["React.js, Next.js"],
+    industry: "Software House",
     current: false,
   },
   {
     company: "WireMaze",
     role: "UI/UX Developer",
     period: "Feb 2018 - Jan 2019",
-    location: "Leça do Balio, Portugal",
+    location: "Porto, Portugal",
     description:
       "Built city council websites using an internal website builder platform. Conducted training sessions for client technical managers on CMS tooling for content insertion and ongoing maintenance. Hybrid UI/UX role bridging design decisions with frontend implementation.",
-    tech: ["CMS"],
+    tech: ["HTML", "CSS", "JavaScript"],
     industry: "GovTech",
     current: false,
   },
