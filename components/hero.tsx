@@ -22,7 +22,7 @@ export function Hero({
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: [0.21, 0.47, 0.32, 0.98] }}
-      className="flex flex-col gap-5 py-12 md:py-20 lg:py-28"
+      className="flex flex-col gap-5 py-6 md:py-10 lg:py-14"
     >
       <div className="flex items-center justify-end">
         <ThemeToggle />
