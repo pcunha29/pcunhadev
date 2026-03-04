@@ -39,7 +39,7 @@ export function ProjectCard({
           {tag}
         </span>
       </div>
-      <p className="relative flex-1 text-sm leading-relaxed text-neutral-400 dark:text-white/40">
+      <p className="relative flex-1 text-sm leading-relaxed text-neutral-500 dark:text-white/40">
         {description}
       </p>
     </div>

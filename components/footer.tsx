@@ -39,7 +39,7 @@ export function Footer() {
               animate={{ y: "0%", opacity: 1 }}
               exit={{ y: "-100%", opacity: 0 }}
               transition={{ duration: 0.5, ease: [0.21, 0.47, 0.32, 0.98] }}
-              className="absolute left-0 text-emerald-500 dark:text-emerald-400"
+              className="absolute left-0 text-emerald-600 dark:text-emerald-400"
             >
               {words[index]}
             </motion.span>
@@ -52,12 +52,12 @@ export function Footer() {
       >
         pcunhadev@gmail.com
       </a>
-      <div className="flex gap-6 text-sm text-neutral-300 dark:text-white/25">
+      <div className="flex gap-6 text-sm text-neutral-400 dark:text-white/25">
         <a
           href="https://github.com/pcunha29"
           target="_blank"
           rel="noopener noreferrer"
-          className="transition-colors hover:text-neutral-500 dark:hover:text-white/50"
+          className="transition-colors hover:text-neutral-600 dark:hover:text-white/50"
         >
           GitHub
         </a>
@@ -65,7 +65,7 @@ export function Footer() {
           href="https://linkedin.com/in/pcunha29"
           target="_blank"
           rel="noopener noreferrer"
-          className="transition-colors hover:text-neutral-500 dark:hover:text-white/50"
+          className="transition-colors hover:text-neutral-600 dark:hover:text-white/50"
         >
           LinkedIn
         </a>

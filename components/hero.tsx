@@ -42,11 +42,11 @@ export function Hero({
         </h1>
       </div>
 
-      <p className="max-w-2xl text-lg leading-relaxed text-neutral-500 dark:text-white/60 md:text-xl">
+      <p className="max-w-2xl text-lg leading-relaxed text-neutral-600 dark:text-white/60 md:text-xl">
         {title}
       </p>
 
-      <p className="max-w-xl text-base leading-relaxed text-neutral-400 dark:text-white/35">
+      <p className="max-w-xl text-base leading-relaxed text-neutral-500 dark:text-white/35">
         {description}
       </p>
 
@@ -54,21 +54,21 @@ export function Hero({
         {skills.map((skill) => (
           <span
             key={skill}
-            className="rounded-full border border-neutral-200 bg-neutral-100 px-3 py-1 font-mono text-xs text-neutral-500 dark:border-white/8 dark:bg-white/4 dark:text-white/50"
+            className="rounded-full border border-neutral-300 bg-neutral-100 px-3 py-1 font-mono text-xs text-neutral-600 dark:border-white/8 dark:bg-white/4 dark:text-white/50"
           >
             {skill}
           </span>
         ))}
       </div>
 
-      <div className="mt-4 flex flex-col gap-2 border-l border-neutral-200 pl-4 dark:border-white/8 sm:flex-row sm:items-center sm:gap-0 sm:border-l-0 sm:pl-0">
+      <div className="mt-4 flex flex-col gap-2 border-l border-neutral-300 pl-4 dark:border-white/8 sm:flex-row sm:items-center sm:gap-0 sm:border-l-0 sm:pl-0">
         {highlights.map((item, i) => (
           <span key={item} className="flex items-center">
-            <span className="font-mono text-xs leading-relaxed text-neutral-400 dark:text-white/30">
+            <span className="font-mono text-xs leading-relaxed text-neutral-500 dark:text-white/30">
               {item}
             </span>
             {i < highlights.length - 1 && (
-              <span className="hidden px-3 text-lg text-neutral-200 dark:text-white/15 sm:inline">
+              <span className="hidden px-3 text-lg text-neutral-300 dark:text-white/15 sm:inline">
                 |
               </span>
             )}
