@@ -96,7 +96,7 @@ export default function Home() {
               tag={projects[0].tag}
               description={projects[0].description}
               image={projects[0].image}
-              // href={projects[0].href}
+              href={projects[0].href}
               className="lg:col-span-2"
               index={1}
             />
